@@ -31,7 +31,6 @@ Cantina citire() {
 	if (c.nrPreparate > 0) {
 		c.preturi = (float*)malloc(sizeof(float) * c.nrPreparate);
 		for (int i = 0; i < c.nrPreparate; i++) {
-			int ok = 0;
 			printf("Introduceti pretul preparatului(numar pozitiv) %d: ", i + 1);
 			scanf("%f", &c.preturi[i]);
 		}
